@@ -8,7 +8,7 @@ for (let i = 0; i <= n; i++) {
         space+=String.fromCharCode(65+j);    // unicode deyerlerini ardicil qaytaran metod
     }
     for (let j = i-2; j >=0; j--) {
-        space+=String.fromCharCode(65+j)  //eyni kod sadece, dovr ikinci setden yazir herfleri ilk setrde bos olur ve tersine yazir.
+        space+=String.fromCharCode(65+j)  //eyni kod sadece, dovr ikinci setrden yazir ve herfleri ilk setrde bos olur daha sonra ise tersine yazir.
     }
     console.log(space);
 }
